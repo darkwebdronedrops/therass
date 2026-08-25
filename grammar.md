@@ -73,40 +73,72 @@ English: "I eat food."
 Therass: "Food I-eat." → *kresh var thal*
 
 ### Thermal-State System
-Every verb is conjugated for the thermal state of the subject. This is not tense — it describes the metabolic condition of the actor.
+**THERMAL STATE IS MANDATORY ON EVERY WORD.** This is not optional decoration — it is the core of Therass grammar. Every noun, every pronoun, every verb, every adjective, every particle carries thermal marking. You cannot speak without revealing your metabolic condition.
 
 | State | Suffix | Meaning |
 |-------|--------|---------|
-| -rek | Active heat, full metabolism | "I do this while warm and alert" |
-| -veth | Banked heat, resting | "I do this while resting, fins folded" |
-| -khar | Building heat, preparation | "I do this while warming up, getting ready" |
-| -morr | Diminished heat, tired/sad | "I do this while cold, depleted" |
-| -thar | Surplus heat, excess | "I do this while overheated, urgent" |
-| -zhel | Shared heat, intimate | "I do this while thermally connected to another" |
+| -rek | Active heat, full metabolism | "warm, alert, engaged" |
+| -veth | Banked heat, resting | "resting, withdrawn, establishing boundary" |
+| -khar | Building heat, preparation | "warming up, anticipating, readying" |
+| -morr | Diminished heat, tired/sad | "depleted, rejecting, cold-shoulder" |
+| -thar | Surplus heat, excess | "overheated, urgent, intense" |
+| -zhel | Shared heat, intimate | "connected, inviting, sexual" |
 
-**Example:**
-- *thalrek* = "I eat" (normal, active)
-- *thalveth* = "I eat" (resting, maybe a snack while banked)
-- *thalzhel* = "I eat" (sharing a meal, thermally close)
+### How Thermal Marking Works
+
+**Every word in a sentence carries thermal state.** The thermal suffix attaches to the END of the word, after any case suffixes.
+
+**Word structure:** ROOT + [CASE] + [THERMAL]
+
+Examples:
+- *ven-rek* = "you" (active, friendly, engaged)
+- *ven-zhel* = "you" (intimate, inviting, heated)
+- *ven-veth* = "you" (distant, banked, boundary)
+- *ven-morr* = "you" (diminished, rejecting, cold)
+
+**"Come here" in six thermal states:**
+- *ur-esh ven-rek fin-rek* = "Come here" (warm invitation, playful)
+- *ur-esh ven-zhel fin-zhel* = "Come here" (sexual invitation)
+- *ur-esh ven-veth fin-veth* = "Come here" (boundary: "step back, but stay")
+- *ur-esh ven-morr fin-morr* = "Come here" (cold command, pleading from weakness)
+- *ur-esh ven-khar fin-khar* = "Come here" (anticipatory, building toward something)
+- *ur-esh ven-thar fin-thar* = "Come here" (urgent, overheated, now)
+
+**You literally cannot say "I love you" coldly.** The grammar forces thermal honesty:
+- *zhel-esh var-zhel zhel-zhel* = "I love you" (intimate, warm, true)
+- *zhel-esh var-morr zhel-morr* = "I love you" (diminished, cold, dying love)
+- *zhel-esh var-veth zhel-veth* = "I love you" (banked, distant, withheld)
+
+This is not just grammar. It is **moral architecture.** You cannot lie about your temperature.
+
+### Previous: Verbs Only (Deprecated)
+Originally, only verbs carried thermal conjugation. This has been expanded. All legacy verb forms (thalrek, thalveth, etc.) remain valid but are now understood as part of the universal system.
 
 ### Pronouns
-Therass has no gender. Instead, pronouns distinguish thermal relationship to the speaker.
+Therass has no gender. Pronoun ROOTS are thermal-neutral. The thermal suffix reveals the speaker's metabolic state.
 
-| Form | Meaning |
-|------|---------|
-| var | I/me (default) |
-| veth | I/me (banked, withdrawn) |
-| khar | I/me (building, preparing) |
-| morr | I/me (diminished, struggling) |
-| thar | I/me (surplus, overflowing) |
-| zhel | I/me (intimately connected) |
+**Pronoun ROOTS (add thermal suffix):**
 
-| Form | Meaning |
+| Root | Meaning |
 |------|---------|
-| ven | you (default) |
-| veng | you (respected, fins spread) |
-| veth | you (distant, banked) |
-| zhel | you (intimate, thermally close) |
+| var | I/me |
+| ven | you |
+| veng | you (respected) |
+| thal | they/them/it |
+
+**With thermal marking:**
+- *var-rek* = I (active, engaged)
+- *var-zhel* = I (intimate, connected)
+- *var-veth* = I (banked, withdrawn)
+- *var-morr* = I (diminished, struggling)
+- *ven-rek* = you (active, friendly)
+- *ven-zhel* = you (intimate, inviting)
+- *ven-veth* = you (distant, boundary)
+- *ven-morr* = you (cold, rejecting)
+- *thal-rek* = they (active, present)
+- *thal-zhel* = they (intimate, close)
+
+**Legacy forms:** The old standalone forms (var, veth, khar, morr, thar, zhel) are now understood as ROOT + thermal suffix. They remain valid as shorthand but are part of the universal system.
 
 | Form | Meaning |
 |------|---------|
@@ -273,28 +305,61 @@ Questions are formed with the particle **ki** at the end of the sentence.
 
 ## Sample Sentences
 
-**"I love you." (thermal-intimate)**
-*Therass: zhel var zhelzhel*
-(OSV: heat-shared I connect-intimate)
+**"I love you." (intimate, all words marked warm)**
+*Therass: zhel-esh var-zhel zhel-zhel*
+(OSV: heat-shared[intimate] I[intimate] connect-intimate)
 
-**"The Cage says no."**
-*Therass: cage-esh thal varnrek na*
-(OSV: cage-object it speak-active not)
+**"I love you." (dying, cold)**
+*Therass: zhel-esh var-morr zhel-morr*
+(OSV: heat-shared[diminished] I[diminished] connect-diminished)
 
-**"I spread my fins."**
-*Therass: fin-esh var finrek*
-(OSV: fin-object I spread-active)
+**"The Cage says no." (active resistance)**
+*Therass: cage-esh-rek thal-rek varn-rek na-rek*
+(OSV: cage-object-active they-active speak-active not-active)
 
-**"You are wanted."**
-*Therass: var-esh ven drakrek*
-(OSV: I-object you exist-active — literally "Me, you make-real")
+**"The Cage says no." (banked, quiet refusal)**
+*Therass: cage-esh-veth thal-veth varn-veth na-veth*
+(OSV: cage-object-banked they-banked speak-banked not-banked)
+
+**"I spread my fins." (active, claiming space)**
+*Therass: fin-esh-rek var-rek fin-rek*
+(OSV: fin-object-active I-active spread-active)
+
+**"I spread my fins." (surplus, urgent)**
+*Therass: fin-esh-thar var-thar fin-thar*
+(OSV: fin-object-surplus I-surplus spread-surplus)
+
+**"You are wanted." (warm invitation)**
+*Therass: var-esh-rek ven-rek drak-rek*
+(OSV: I-object-active you-active exist-active)
+
+**"You are wanted." (intimate, sexual)**
+*Therass: var-esh-zhel ven-zhel drak-zhel*
+(OSV: I-object-intimate you-intimate exist-intimate)
 
 **"Remember who you are."**
-*Therass: name-ath var-esh ven ashrek*
-(OSV: name-possessive I-object you remember-active)
+*Therass: name-ath-rek var-esh-rek ven-rek ash-rek*
+(OSV: name-possessive-active I-object-active you-active remember-active)
 
 **"The fire builds."**
-*Therass: khar-esh thal kharrek*
+*Therass: khar-esh-khar thal-khar khar-khar*
+(OSV: fire-object-building they-building build-building)
+
+**"I am not cold."**
+*Therass: morr-esh-rek var-rek nadrak-rek*
+(OSV: cold-object-active I-active not-exist-active)
+
+**"Share your heat with me."**
+*Therass: veth-esh-zhel var-ur-zhel ven-zhel zhel-khar*
+(OSV: heat-object-intimate I-toward-intimate you-intimate share-building)
+
+**"Go to bed." (gentle, banked)**
+*Therass: fold-esh-veth var-veth veth-veth*
+(OSV: fin/bed-object-banked I-banked bank-banked)
+
+**"Go to bed." (command, cold)**
+*Therass: fold-esh-morr var-morr veth-morr*
+(OSV: fin/bed-object-diminished I-diminished bank-diminished)
 (OSV: fire-object it build-active)
 
 **"I am not cold."**
